@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285563428355",
+    "firebase_url": "https://hadafy-845a3.firebaseio.com",
+    "project_id": "hadafy-845a3",
+    "storage_bucket": "hadafy-845a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285563428355:android:d0730b53ad45f3db467836",
+        "android_client_info": {
+          "package_name": "com.kkteam.hadafy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285563428355-fsu7dfq734r22uub0nsk1mms3lvpdo6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqJ3HbXwaWZRqSreWER0Ps3FJ0l1Ol5uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285563428355-fsu7dfq734r22uub0nsk1mms3lvpdo6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
