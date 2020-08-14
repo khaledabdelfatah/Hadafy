@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hadafy_app/Screens/homescreen.dart';
 import 'package:hadafy_app/services/auth_service.dart';
 import 'package:hadafy_app/services/responsive.dart';
 import 'package:hadafy_app/services/validation.dart';
@@ -256,8 +257,11 @@ class _Regestration_ScreenState extends State<Regestration_Screen>
                                                 _phoneNum.text,
                                             imgLink: imgUrl,
                                           );
-                                          // await Navigator.pushReplacementNamed(
-                                          //     context, Hello_Screen.id);
+                                          await Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (c) =>
+                                                      HomeScreen()));
 
                                           print("FINALLLL");
                                         } on PlatformException catch (e) {

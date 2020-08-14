@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hadafy_app/Screens/homescreen.dart';
 import 'package:hadafy_app/services/auth_service.dart';
 import 'package:hadafy_app/services/responsive.dart';
 import 'package:hadafy_app/services/validation.dart';
@@ -198,8 +199,10 @@ class _Login_screenState extends State<LoginScreen>
                                   email: _loginEmailController.text.trim(),
                                   password: _loginPasswordController.text);
 
-                              // await Navigator.pushReplacementNamed(
-                              //     context, Home_Screen.id);
+                              await Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (c) => HomeScreen()));
                             } on PlatformException catch (e) {
                               setState(() {
                                 _saving = false;
